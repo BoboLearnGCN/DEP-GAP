@@ -39,15 +39,14 @@ cd /your/working/directory/
 /your/DEP-GAP/source/code/directory/DEP-GAP -g [the number of your measurements] -k [the number of lithology type] -b [the number of layers] -x [the range of spatial location 1] -y [the range of spatial location 2] -d [your data directory] -l [initial lithology type] -o[the output directory] -t[the number of MCMC iterations] -s[seed] -c[the number of cores for parallel]
 ```
 where 
-   - *-d* for the directory to save the posterior sampling and inference result;
-   - *-r* for the directory of read count data and dimension information created in the step 3;
-   - *-p* for the project name, which should be consistent with the name of read count data and dimension file;
-   - *-v* for the version number;
-   - *-K* for the total number of cell types;
-   - *-i* for the number of iterations in the MCMC sampling;
-   - *-o* for the number of iterations printed into the hard disk to control memory usage;
-   - *-s* for the seed of MCMC sampling to let the results be reproducible;
+   - *-g* for the number of physical measurements;
+   - *-k* for the lithology type number;
+   - *-b* for the layer number;
+   - *-x* for the range of spatial coordinate 1;
+   - *-d* for the range of spatial coordinate 2;
+   - *-l* for the initial lithology type label;
+   - *-o* for the directory of output;
+   - *-t* for the number of iterations;
    - *-c* for the number of cores for parallel computing;
-   - *-b* for the number of burn-in iterations in the posterior inference.
 
-After running MCMC algorithm, there are two folders created to store the results. `MCMC_sampling_K[the number of cell types]` stores the posterior sampling of MCMC algorithm, and `Inference_K[the number of cell types]` saves the posterior inference of all parameters. 
+After running MCMC algorithm, your output directory stores the posterior sampling of MCMC algorithm. 

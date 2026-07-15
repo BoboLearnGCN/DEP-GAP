@@ -79,3 +79,14 @@ Run real_plot.R to visualize the lithology effects, depth effects and lithology 
 cd /your/working/directory/
 ./real_plot.R -o [the output directory]
 ```
+
+# References
+
+@inproceedings{
+zhai2026depgap,
+title={{DEP}-{GAP}: Depth effects correction and lithology type prediction for geophysical inversion data},
+author={Yibo Zhai and Yujian Hou and Fangda Song},
+booktitle={The First Conference on Statistics and Trustworthy AI for Cross (X)-Domain Acceleration},
+year={2026},
+url={https://openreview.net/forum?id=2JAAtMdV3V}
+}

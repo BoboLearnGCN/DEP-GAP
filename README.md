@@ -50,3 +50,6 @@ where
    - *-c* for the number of cores for parallel computing;
 
 After running MCMC algorithm, your output directory stores the posterior sampling of MCMC algorithm. 
+
+# Posterior analysis
+

@@ -52,4 +52,4 @@ where
 After running MCMC algorithm, your output directory stores the posterior sampling of MCMC algorithm. 
 
 # Posterior analysis
-
+## Posterior means

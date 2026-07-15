@@ -81,12 +81,17 @@ cd /your/working/directory/
 ```
 
 # References
+If you find this work or code useful in your research, please consider citing our paper:
 
-@inproceedings{
-zhai2026depgap,
-title={{DEP}-{GAP}: Depth effects correction and lithology type prediction for geophysical inversion data},
-author={Yibo Zhai and Yujian Hou and Fangda Song},
-booktitle={The First Conference on Statistics and Trustworthy AI for Cross (X)-Domain Acceleration},
-year={2026},
-url={https://openreview.net/forum?id=2JAAtMdV3V}
+**APA Format:**
+> Zhai, Y., Hou, Y., & Song, F. (2026). DEP-GAP: Depth effects correction and lithology type prediction for geophysical inversion data. *The First Conference on Statistics and Trustworthy AI for Cross (X)-Domain Acceleration*. [https://openreview.net/forum?id=2JAAtMdV3V](https://openreview.net/forum?id=2JAAtMdV3V)
+
+**BibTeX:**
+```bibtex
+@inproceedings{zhai2026depgap,
+  title={{DEP}-{GAP}: Depth effects correction and lithology type prediction for geophysical inversion data},
+  author={Yibo Zhai and Yujian Hou and Fangda Song},
+  booktitle={The First Conference on Statistics and Trustworthy AI for Cross (X)-Domain Acceleration},
+  year={2026},
+  url={[https://openreview.net/forum?id=2JAAtMdV3V](https://openreview.net/forum?id=2JAAtMdV3V)}
 }

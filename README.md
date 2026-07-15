@@ -53,3 +53,4 @@ After running MCMC algorithm, your output directory stores the posterior samplin
 
 # Posterior analysis
 ## Posterior means
+After saving the MCMC records in the output directory, the posterior estimates of parameters can be computed and the first half iterations will be regraded as burn-in.

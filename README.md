@@ -60,3 +60,19 @@ After saving the MCMC records in the output directory, the posterior estimates o
 cd /your/working/directory/
 ./posterior_means.R -i [MCMC record directory] -o [the posterior estimates directory]
 ```
+
+## Results of simulation
+Run sim_plot.R to visualize the lithology effects, depth effects and lithology type spatial patterns of simulation results. The demo data are available.
+
+```
+cd /your/working/directory/
+./sim_plot.R -o [the output directory]
+```
+
+## Results of real data
+Run real_plot.R to visualize the lithology effects, depth effects and lithology type spatial patterns of real data results. Note that the real inversion data are private.
+
+```
+cd /your/working/directory/
+./real_plot.R -o [the output directory]
+```

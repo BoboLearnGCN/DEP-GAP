@@ -1,5 +1,8 @@
 # DEP-GAP: Depth effects correction and lithology type prediction for geophysical inversion data
 
+<img width="2475" height="1480" alt="image" src="https://github.com/user-attachments/assets/60dcbd0b-226d-49a7-86f5-bce3f0e10e6a" />
+
+
 Geophysical inversion is the mathematical process of predicting underground geophysical properties at different depths from wave signals detected on the ground, such as seismic waves. Three-dimensional reconstruction of lithology type based on geophysical inversion data enables determining the optimal drilling location and depth. However, the normalization procedures inherent in geophysical inversion often leads to substantial discrepancies between the inferred geophysical properties and those directly measured from drilled rock samples. As a result, geologists usually have to annotate inversion results manually based on expert knowledge. These discrepancies, which can vary with depth even for the same lithology type, will further hamper manual annotation. 
 
 To address these challenges, we develop an unsupervised hierarchical Bayesian model, Depth-corrected Gaussian-Potts Mixture model, abbreviated as DEP-GAP. DEP-GAP integrates a location-and-scale adjustment model with a Potts spatial prior to simultaneously identify lithology types, adjust for depth-related effects, and encourage spatial smoothness.

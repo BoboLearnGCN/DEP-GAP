@@ -36,7 +36,7 @@ The compiling of C++ codes will only take a few seconds.
 For general cases, you can change the working directory and run the following two commands in the terminal to conduct MCMC sampling and posterior inference directly:
 ```
 cd /your/working/directory/
-/your/DEP-GAP/source/code/directory/DEP-GAP -g [the number of your measurements] -k [the number of lithology type] -b [the number of layers] -x [the range of spatial location 1] -y [the range of spatial location 2] -d [your data directory] -l [initial lithology type] -o[the output directory] -t[the number of MCMC iterations] -s[seed] -c[the number of cores for parallel]
+./DEP-GAP -g [the number of your measurements] -k [the number of lithology type] -b [the number of layers] -x [the range of spatial location 1] -y [the range of spatial location 2] -d [your data directory] -l [initial lithology type] -o[the output directory] -t[the number of MCMC iterations] -s[seed] -c[the number of cores for parallel]
 ```
 where 
    - *-g* for the number of physical measurements;
@@ -54,3 +54,8 @@ After running MCMC algorithm, your output directory stores the posterior samplin
 # Posterior analysis
 ## Posterior means
 After saving the MCMC records in the output directory, the posterior estimates of parameters can be computed and the first half iterations will be regraded as burn-in.
+
+```
+cd /your/working/directory/
+./posterior_means.R -i [MCMC record directory] -o [the posterior estimates directory]
+```
